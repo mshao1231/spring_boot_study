@@ -11,4 +11,20 @@ public class PageController {
     public String index(){
         return "index";
     }
+
+    @RequestMapping("/doLogin")
+    public String doLogin(){
+        return "index";
+    }
+
+    @RequestMapping("/login")
+    public String login(){
+        return "login";
+    }
+
+    @RequestMapping("/logout")
+    public String logout(){
+        return "login";
+    }
+
 }
